@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Macondo');
+
+
+html {
+    font-size: 10px;
+    background-image: linear-gradient(to left bottom, rgb(255, 255, 255),
+     rgba(255, 255, 255, 0.5)), url("../img/background.jpg");
+    background-size: cover;
+    background-position: top;  
+  }
+
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Macondo', cursive;
+  }
+  
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: .4rem solid black;
+    border-radius: 50%;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 2rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(255,255,255,0.4);
+    text-shadow: 0 0 .5rem black;
+    transform: all 0.07s;
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffffffc9;
+    box-shadow: 0 0 1rem #ffffffb0;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 4rem;
+     font-family: 'Macondo', cursive;
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #00a2ff;
+  }
+  
